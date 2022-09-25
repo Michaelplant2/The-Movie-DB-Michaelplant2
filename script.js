@@ -1,6 +1,6 @@
 const APIURL = "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=d443cc02330f81935fbd017507b99041&page=1";
 const IMGPATH = "https://image.tmdb.org/t/p/w1280";
-// const SEARCHAPI = "https://api.themoviedb.org/3/search/movie?&api_key=YOUR_API_KEY&query=";
+const SEARCHAPI = "https://api.themoviedb.org/3/search/movie?&api_key=d443cc02330f81935fbd017507b99041&query=";
 
 const main = document.getElementById('main');
 
@@ -35,3 +35,4 @@ function showMovies(movies) {
     main.appendChild(movieEl);
   });
 }
+
