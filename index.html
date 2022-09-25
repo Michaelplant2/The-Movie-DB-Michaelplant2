@@ -5,13 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movie DB</title>
+    <title>Rate-A-Movie</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <!-- We place the script tag here and use defer. This will ensure that the script is loaded after the DOM is loaded.  -->
     <script src="script.js" defer></script>
 </head>
 
 <body>
+    <nav class="navbar bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand">Rate-A-Movie.com</a>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Find Your Movie" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Find</button>
+          </form>
+        </div>
+    </nav>
+
     <main id="main"></main>
 </body>
 
