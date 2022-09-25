@@ -14,13 +14,24 @@ async function getMovie(url) {
   showMovies(respData.results);
 }
 
-
 function showMovies(movies) {
-  movies.forEach((movie) => {
-    const {poster_path, title, vote_average, overview} = movie;
+  movies.forEach(movie => {
+    const { poster_path, title, vote_average, overview } = movie;
 
     const movieEl = document.createElement('div');
     movieEl.classList.add('movie');
-    movieEl.innerHTML=
+    movieEl.innerHTML = `
+        <img 
+            src="${IMGPATH + poster_path}" 
+            alt="${title}"/>
+        <div class="movie-info">
+            <h3>${title}</h3>
+            <span>${vote_average}</span>
+        </div>
+        <div class="overview">
+            <h3>Overview:</h3>
+            ${overview}
+        </div>`;
+    main.appendChild(movieEl);
   });
 }
