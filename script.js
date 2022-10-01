@@ -9,19 +9,19 @@ const search = document.getElementById('search');
 getMovie(APIURL);
 
 async function getMovie(url) {
-    const resp = await fetch(url);
-    const respData = await resp.json();
-    console.log(respData);
-    showMovies(respData.results);
+   const resp = await fetch(url);
+   const respData = await resp.json();
+   console.log(respData);
+   showMovies(respData.results);
 }
 
 function showMovies(movies) {
-    main.innerHTML = '';
-    movies.forEach(movie => {
-        const { poster_path, title, vote_average, overview } = movie;
-        const movieEl = document.createElement('div');
-        movieEl.classList.add('col');
-        movieEl.innerHTML = `
+   main.innerHTML = '';
+   movies.forEach(movie => {
+      const { poster_path, title, vote_average, overview } = movie;
+      const movieEl = document.createElement('div');
+      movieEl.classList.add('col');
+      movieEl.innerHTML = `
             <div class="card">
                 <img 
          	        src="${IMGPATH + poster_path}" 
@@ -34,19 +34,19 @@ function showMovies(movies) {
                     <p class="card-text">${overview}</p>
                 </div>
             </div>`;
-        main.appendChild(movieEl);
-    });
+      main.appendChild(movieEl);
+   });
 }
 
 function GoToHomePage() {
-    window.location = '/index.html';
+   window.location = '/index.html';
 }
 
 form.addEventListener('submit', e => {
-    e.preventDefault();
-    const searchTerm = search.value;
-    if (searchTerm) {
-        getMovie(SEARCHAPI + searchTerm);
-        search.value = '';
-    }
+   e.preventDefault();
+   const searchTerm = search.value;
+   if (searchTerm) {
+      getMovie(SEARCHAPI + searchTerm);
+      search.value = '';
+   }
 });
