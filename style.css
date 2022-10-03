@@ -18,6 +18,20 @@ body {
    margin-bottom: 20px;
 }
 
+.m-title {
+   font-size: 30px;
+   font-weight: 600;
+}
+
+.m-search {
+   border: 1px solid #000000;
+}
+
+.m-btn {
+   color: #000000;
+   border: 1px solid #000000;
+}
+
 .container {
    background-color: gray;
 }
