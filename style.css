@@ -32,8 +32,8 @@ body {
    border: 1px solid #000000;
 }
 
-.container {
-   background-color: gray;
+.m-container {
+   margin: 0 15px 0 15px;
 }
 
 .footer {
@@ -43,4 +43,10 @@ body {
    background-color: lightgray;
    margin-top: 10px;
    padding-top: 10px;
+}
+
+@media (max-width: 630px) {
+   .m-nav-container {
+      justify-content: center !important;
+   }
 }

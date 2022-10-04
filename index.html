@@ -7,14 +7,14 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Rate-A-Movie</title>
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"> 
    <link rel="stylesheet" type="text/css" href="style.css">
    <script src="script.js" defer></script>
 </head>
 
 <body>
    <nav class="navbar m-nav">
-      <div class="container-fluid">
+      <div class="container-fluid m-nav-container">
          <a class="navbar-brand m-title" onclick="GoToHomePage()">Rate-A-Movie.com</a>
          <form class="d-flex" role="search" id="form">
             <input class="form-control me-2 m-search" type="search" placeholder="Find Your Movie" aria-label="Search"
@@ -24,8 +24,8 @@
       </div>
    </nav>
 
-   <main class="container">
-      <section id="main" class="row row-cols-3"></section>
+   <main class="m-container text-center">
+      <section id="main" class="row"></section>
    </main>
 
    <footer class="footer">
