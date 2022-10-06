@@ -20,20 +20,20 @@ function showMovies(movies) {
    movies.forEach(movie => {
       const { poster_path, title, vote_average, overview } = movie;
       const movieEl = document.createElement('div');
-      movieEl.classList.add('col');
+      movieEl.classList.add('movie');
       movieEl.innerHTML = `
-            <div class="card">
+
                 <img 
          	        src="${IMGPATH + poster_path}" 
-                    alt="${title}"
-                    class="card-img-top"/>
-                <div class="card-body">
-                    <h3 class="card-title">${title}</h3>
-                    <p class="card-text">${vote_average}/10</p>
-                    <h3 class="card-title">Overview:</h3>
-                    <p class="card-text">${overview}</p>
+                    alt="${title}"/>
+                <div class="movie-card">
+                    <h3 class="movie-title">${title}</h3>
+                    <p class="movie-rate">${vote_average}/10</p>
                 </div>
-            </div>`;
+                <div class="movie-overview">
+                    <h3>Overview:</h3>
+                    ${overview}
+                </div>`;
       main.appendChild(movieEl);
    });
 }

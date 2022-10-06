@@ -32,8 +32,60 @@ body {
    border: 1px solid #000000;
 }
 
-.m-container {
-   margin: 0 15px 0 15px;
+.main {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.movie {
+   position: relative;
+   background-color: #373B69;
+   border-radius: 3px;
+   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+   overflow: hidden;
+   margin: 1rem;
+   width: 300px;
+}
+
+.movie img{
+   object-fit: cover;
+   height: 400px;
+   width: 100%;
+}
+
+.movie-card{
+   color: #eee;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0.5rem 1rem 1rem;
+   letter-spacing: 0.5px;
+}
+
+.movie-card h3{
+   margin: 0;
+}
+
+.movie-overview {
+   background-color: #fff;
+   padding: 2rem;
+   position: absolute;
+   max-height: 100%;
+   overflow: auto;
+   top: 0;
+   right: 0;
+   left: 0;
+   bottom: 0;
+   transform: translateY(101%);
+   transition: transform 0.3s ease-in-out;
+}
+
+.movie-overview h3{
+   margin-top: 0;
+}
+
+.movie:hover .movie-overview{
+   transform: translateY(0);;
 }
 
 .footer {
