@@ -1,53 +1,192 @@
 # The-Movie-DB-Michaelplant2
 In this portfolio project, I built a single page app (SPA) with searchable movie listings using [The Movie Database Api (TMDB)](https://www.themoviedb.org/documentation/api).
 
-The desktop mockup has 2 main parts: a header and a main.
-
-
-## Objective
-Utilize CSS grid and/or flexbox to create a responsive layout. A desktop mockup is provided, however, make sure your layout is responsive for tablet and mobile devices.
-
-**Default:** 
-Movie listings display the Poster, Title, Average Voting in CSS boxes (card).
-
-**Hover:**
-The default view is hidden and the Overview of each movie is displayed.
-
-Use JavaScript to connect to the [TMDB api](https://www.themoviedb.org/documentation/api) to access available movie data: Title, Image, Overview and Vote Average. Connect to the TMDB search API to make the website searchable.
-
-
-## Mockups
-[Link to Figma](https://www.figma.com/file/x6MNBSRr5L6IslMTS5VGk5/The-Movie-DB?node-id=0%3A1)
-
-
 ## Getting Started
 - You will need to [create an account at www.moviedb.org](https://www.themoviedb.org/signup) to generate an API Key for API access.
 - READ CAREFULLY the TMDB documentation, starting with the [Overview](https://www.themoviedb.org/documentation/api) and then the [Developer's Documentation](https://developers.themoviedb.org/3/getting-started/introductionapi).
-
-- You're not given any HTML markup inside of the `<body></body>` tags, first start by outlining the main elements. Once you have done that, you can start implementing the styles. You'll be expected to edit `style.css` to implement the styles. 
-
-- The `style.css` and `index.html` files are linked, which you can see in the `<head></head>` tag.
-- The `script.js` contains a simple example of starter code and is linked in the `<head></head>` tag since we are using `defer`.
 
 **Example Endpoint**
 Below is an example endpoint showing json data. DO NOT USE this example api url, please follow the instructions above to create your own account and register your own api key.
 
     APIURL = https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=04c35731a5ee918f014970082a0088b1&page=1
 
+<!-- PROJECT SHIELDS -->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-### Font
-- Font-family used in this project is "`Poppins`" and already imported in `style.css` using `@import`.
 
 
-### Color Palette
-Primary Color
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/Michaelplant2/The-Movie-DB-Michaelplant2">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
- - #051923
+<h3 align="center">Rate-A-Movie</h3>
 
-Secondary Color
+  <p align="center">
+    project_description
+    <br />
+    <a href="https://github.com/Michaelplant2/The-Movie-DB-Michaelplant2"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/Michaelplant2/The-Movie-DB-Michaelplant2">View Demo</a>
+    ·
+    <a href="https://github.com/Michaelplant2/The-Movie-DB-Michaelplant2/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/Michaelplant2/The-Movie-DB-Michaelplant2/issues">Request Feature</a>
+  </p>
+</div>
 
- - #003554
 
-Text Colors
-- #FFA500
 
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
+
+Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `Michaelplant2`, `The-Movie-DB-Michaelplant2`, `michael-plantamura-458347223/`, `gmail`, `MEPlantamura`, `Rate-A-Movie`, `project_description`
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+### Built With
+
+* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
+
+### Installation
+
+1. Get a free API Key at [https://example.com](https://example.com)
+2. Clone the repo
+   ```sh
+   git clone https://github.com/Michaelplant2/The-Movie-DB-Michaelplant2.git
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Enter your API in `config.js`
+   ```js
+   const API_KEY = 'ENTER YOUR API';
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Michael Plantamura - MEPlantamura@gmail.com
+
+Project Link: [https://github.com/Michaelplant2/The-Movie-DB-Michaelplant2](https://github.com/Michaelplant2/The-Movie-DB-Michaelplant2)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/Michaelplant2/The-Movie-DB-Michaelplant2.svg?style=for-the-badge
+[contributors-url]: https://github.com/Michaelplant2/The-Movie-DB-Michaelplant2/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Michaelplant2/The-Movie-DB-Michaelplant2.svg?style=for-the-badge
+[forks-url]: https://github.com/Michaelplant2/The-Movie-DB-Michaelplant2/network/members
+[stars-shield]: https://img.shields.io/github/stars/Michaelplant2/The-Movie-DB-Michaelplant2.svg?style=for-the-badge
+[stars-url]: https://github.com/Michaelplant2/The-Movie-DB-Michaelplant2/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Michaelplant2/The-Movie-DB-Michaelplant2.svg?style=for-the-badge
+[issues-url]: https://github.com/Michaelplant2/The-Movie-DB-Michaelplant2/issues
+[license-shield]: https://img.shields.io/github/license/Michaelplant2/The-Movie-DB-Michaelplant2.svg?style=for-the-badge
+[license-url]: https://github.com/Michaelplant2/The-Movie-DB-Michaelplant2/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/michael-plantamura-458347223/
+[product-screenshot]: images/screenshot.png
+[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Next-url]: https://nextjs.org/
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
+[Vue-url]: https://vuejs.org/
+[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
+[Angular-url]: https://angular.io/
+[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
+[Svelte-url]: https://svelte.dev/
+[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
+[Laravel-url]: https://laravel.com
+[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[Bootstrap-url]: https://getbootstrap.com
+[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
+[JQuery-url]: https://jquery.com 
