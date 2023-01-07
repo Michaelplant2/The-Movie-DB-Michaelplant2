@@ -1,15 +1,3 @@
-# The-Movie-DB-Michaelplant2
-In this portfolio project, I built a single page app (SPA) with searchable movie listings using [The Movie Database Api (TMDB)](https://www.themoviedb.org/documentation/api).
-
-## Getting Started
-- You will need to [create an account at www.moviedb.org](https://www.themoviedb.org/signup) to generate an API Key for API access.
-- READ CAREFULLY the TMDB documentation, starting with the [Overview](https://www.themoviedb.org/documentation/api) and then the [Developer's Documentation](https://developers.themoviedb.org/3/getting-started/introductionapi).
-
-**Example Endpoint**
-Below is an example endpoint showing json data. DO NOT USE this example api url, please follow the instructions above to create your own account and register your own api key.
-
-    APIURL = https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=04c35731a5ee918f014970082a0088b1&page=1
-
 <!-- PROJECT SHIELDS -->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -21,12 +9,6 @@ Below is an example endpoint showing json data. DO NOT USE this example api url,
 
 
 <!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/Michaelplant2/The-Movie-DB-Michaelplant2">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
 <h3 align="center">Rate-A-Movie</h3>
 
   <p align="center">
@@ -35,7 +17,7 @@ Below is an example endpoint showing json data. DO NOT USE this example api url,
     <a href="https://github.com/Michaelplant2/The-Movie-DB-Michaelplant2"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Michaelplant2/The-Movie-DB-Michaelplant2">View Demo</a>
+    <a href="https://rate-a-moviedb.netlify.app">View Demo</a>
     ·
     <a href="https://github.com/Michaelplant2/The-Movie-DB-Michaelplant2/issues">Report Bug</a>
     ·
@@ -75,11 +57,6 @@ Below is an example endpoint showing json data. DO NOT USE this example api url,
 
 <img src="img/project-4.png" />
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `Michaelplant2`, `The-Movie-DB-Michaelplant2`, `michael-plantamura-458347223/`, `gmail`, `MEPlantamura`, `Rate-A-Movie`, `project_description`
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ### Built With
 
@@ -105,7 +82,10 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Get a free API Key at 
+- You will need to [create an account at www.moviedb.org](https://www.themoviedb.org/signup) to generate an API Key for API access.
+- READ CAREFULLY the TMDB documentation, starting with the [Overview](https://www.themoviedb.org/documentation/api) and then the [Developer's Documentation](https://developers.themoviedb.org/3/getting-started/introductionapi).
+
 2. Clone the repo
    ```sh
    git clone https://github.com/Michaelplant2/The-Movie-DB-Michaelplant2.git
