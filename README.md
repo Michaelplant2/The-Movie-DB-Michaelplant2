@@ -73,7 +73,7 @@ Below is an example endpoint showing json data. DO NOT USE this example api url,
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<img src="img/project-4.png" />
 
 Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `Michaelplant2`, `The-Movie-DB-Michaelplant2`, `michael-plantamura-458347223/`, `gmail`, `MEPlantamura`, `Rate-A-Movie`, `project_description`
 
