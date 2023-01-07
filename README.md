@@ -12,7 +12,7 @@
 <h3 align="center">Rate-A-Movie</h3>
 
   <p align="center">
-    project_description
+    Movie database project where you can search up a movie you would like to see and get a small description about it. Its mobile friendly too!! Made with API's, JavaScript, HTML, and CSS/Bootstrap.
     <br />
     <a href="https://github.com/Michaelplant2/The-Movie-DB-Michaelplant2"><strong>Explore the docs »</strong></a>
     <br />
@@ -45,7 +45,6 @@
       </ul>
     </li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -115,18 +114,6 @@ Don't forget to give the project a star! Thanks again!
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- CONTACT -->
